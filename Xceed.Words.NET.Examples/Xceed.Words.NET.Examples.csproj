@@ -105,12 +105,14 @@
     <Content Include="Samples\Table\Resources\logo_xceed.png" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Xceed.Document.NET.dll">
-      <HintPath>..\Xceed.Document.NET\bin\Debug\Xceed.Document.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="Xceed.Words.NET.dll">
-      <HintPath>..\Xceed.Words.NET\bin\Debug\Xceed.Words.NET.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Xceed.Document.NET\Xceed.Document.NET.csproj">
+      <Project>{e863d072-aa8b-4108-b5f1-785241b37f67}</Project>
+      <Name>Xceed.Document.NET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xceed.Words.NET\Xceed.Words.NET.csproj">
+      <Project>{6a9b96d0-a011-4f33-8ee2-ac31c948cca9}</Project>
+      <Name>Xceed.Words.NET</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -16,7 +16,6 @@
 
 using System;
 using System.Globalization;
-using System.IO.Packaging;
 using System.Xml.Linq;
 
 namespace Xceed.Document.NET

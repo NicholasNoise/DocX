@@ -13,28 +13,7 @@
  
   *************************************************************************************/
 
-
-using System;
-using System.Reflection;
 using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle( "Xceed Document for .NET" )]
-[assembly: AssemblyDescription( "This assembly implements the classes for Xceed Document for .NET Standard." )]
-
-[assembly: AssemblyCompany( "Xceed Software Inc." )]
-[assembly: AssemblyProduct( "Xceed Document for .NET Standard" )]
-[assembly: AssemblyCopyright( "Copyright (C) Xceed Software Inc. 2009-2020" )]
-[assembly: AssemblyCulture("")]
-
-
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
-// COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible(false)]
 
 
 // Allow the Xceed.Words.NET to get at internal stuff.
@@ -72,16 +51,3 @@ using System.Runtime.InteropServices;
     "1b7452ee003b80b936614cdda51db8eb6f8fde913e67d45395b480a992be17bf04744a7fe803ea" +
     "131b925dcf84a73d22264352eca7c3fcf9387f3eee1d60ac7974f04866e6c72928dc0609abe341" +
     "f92cbfb5")]
-
-
-
-
-
-
-
-#pragma warning disable 1699
-[assembly: AssemblyDelaySign( false )]
-[assembly: AssemblyKeyFile( @"..\..\sn.snk" )]
-[assembly: AssemblyKeyName( "" )]
-#pragma warning restore 1699
-

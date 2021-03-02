@@ -21,8 +21,6 @@ using System.Xml.Linq;
 using System.Collections;
 using System.Drawing;
 using System.Globalization;
-using System.IO.Packaging;
-using System.IO;
 
 namespace Xceed.Document.NET
 {

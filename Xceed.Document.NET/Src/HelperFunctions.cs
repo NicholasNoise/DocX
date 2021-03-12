@@ -412,7 +412,7 @@ namespace Xceed.Document.NET
         case ResourceType.DefaultStyle:
           {
 #if NETSTANDARD
-            return "Xceed.Document.NETStandard.Resources.default_styles.xml.gz";
+            return "Xceed.Document.NET.Resources.default_styles.xml.gz";
 #else
             return "Xceed.Document.NET.Resources.default_styles.xml.gz";
 #endif
@@ -420,7 +420,7 @@ namespace Xceed.Document.NET
         case ResourceType.Numbering:
           {
 #if NETSTANDARD
-            return "Xceed.Document.NETStandard.Resources.numbering.xml.gz";
+            return "Xceed.Document.NET.Resources.numbering.xml.gz";
 #else
             return "Xceed.Document.NET.Resources.numbering.xml.gz";
 #endif
@@ -428,7 +428,7 @@ namespace Xceed.Document.NET
         case ResourceType.NumberingBullet:
           {
 #if NETSTANDARD
-            return "Xceed.Document.NETStandard.Resources.numbering.default_bullet_abstract.xml.gz";
+            return "Xceed.Document.NET.Resources.numbering.default_bullet_abstract.xml.gz";
 #else
             return "Xceed.Document.NET.Resources.numbering.default_bullet_abstract.xml.gz";
 #endif
@@ -436,7 +436,7 @@ namespace Xceed.Document.NET
         case ResourceType.NumberingDecimal:
           {
 #if NETSTANDARD
-            return "Xceed.Document.NETStandard.Resources.numbering.default_decimal_abstract.xml.gz";
+            return "Xceed.Document.NET.Resources.numbering.default_decimal_abstract.xml.gz";
 #else
             return "Xceed.Document.NET.Resources.numbering.default_decimal_abstract.xml.gz";
 #endif
@@ -444,7 +444,7 @@ namespace Xceed.Document.NET
         case ResourceType.Styles:
           {
 #if NETSTANDARD
-            return "Xceed.Document.NETStandard.Resources.styles.xml.gz";
+            return "Xceed.Document.NET.Resources.styles.xml.gz";
 #else
             return "Xceed.Document.NET.Resources.styles.xml.gz";
 #endif
@@ -452,7 +452,7 @@ namespace Xceed.Document.NET
         case ResourceType.Theme:
           {
 #if NETSTANDARD
-            return "Xceed.Document.NETStandard.Resources.theme.xml.gz";
+            return "Xceed.Document.NET.Resources.theme.xml.gz";
 #else
             return "Xceed.Document.NET.Resources.theme.xml.gz";
 #endif

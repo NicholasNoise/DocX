@@ -8,7 +8,7 @@
     <Company>Xceed</Company>
     <PackageTags>DocX Microsoft Word Words PDF convert create modify</PackageTags>
     <VersionPrefix>1.7.1</VersionPrefix>
-    <VersionSuffix>netstd01</VersionSuffix>
+    <VersionSuffix>netstd02</VersionSuffix>
     <Product>DocX</Product>
     <PackageId>DocX</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>

@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <Description>DocX is a .NET library that allows developers to manipulate Microsoft Word files, in an easy and intuitive manner. DocX is fast, lightweight and best of all it does not require Microsoft Word or Office to be installed.</Description>
-    <Title>DocX</Title>
+    <Title>DocX.NetStd</Title>
     <Authors>Xceed</Authors>
     <Copyright>Copyright © Xceed Software Inc. 2007-2020</Copyright>
     <Company>Xceed</Company>
     <PackageTags>DocX Microsoft Word Words PDF convert create modify</PackageTags>
     <VersionPrefix>1.7.1</VersionPrefix>
-    <VersionSuffix>netstd02</VersionSuffix>
+    <VersionSuffix></VersionSuffix>
     <Product>DocX</Product>
-    <PackageId>DocX</PackageId>
+    <PackageId>DocX.NetStd</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/NicholasNoise/DocX.git</RepositoryUrl>
